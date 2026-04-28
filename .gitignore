@@ -1,0 +1,35 @@
+# --- Python -------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+build/
+dist/
+
+# --- Jupyter / Colab ----------------------------------------------------------
+.ipynb_checkpoints/
+*.ipynb-checkpoint
+
+# --- Virtual envs -------------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# --- Data (download via OGB; do not commit) -----------------------------------
+data/
+dataset/
+ogb_data/
+*.csv.gz
+
+# --- IDE / OS -----------------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Local secrets ------------------------------------------------------------
+.env
+.env.local
+*.key
